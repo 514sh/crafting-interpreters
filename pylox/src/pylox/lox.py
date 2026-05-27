@@ -7,9 +7,6 @@ def run(source):
     for tokens in scanned_tokens:
         print(str(tokens))
 
-    if "\\" in source:
-        print("i cann...")
-
 
 def run_file(filename):
     lines = []
